@@ -17,7 +17,7 @@ actions=ActionChains(driver)
 main_links = []
 page_number = 1
 itemCnt = 1
-while (page_number!=17):
+while (page_number!=18):
     for _ in range(3):
         actions.send_keys(Keys.PAGE_DOWN).perform()
         sleep(2)
